@@ -835,6 +835,7 @@ var openModal = function openModal(animation, onComplete) {
   addClass(document.documentElement, swalClasses.shown);
   addClass(document.body, swalClasses.shown);
   addClass(container, swalClasses.shown);
+  addClass(container, swalPrefix + 'in');
   fixScrollbar();
   iOSfix();
   states.previousActiveElement = document.activeElement;
