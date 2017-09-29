@@ -1,12 +1,12 @@
 {
-  "name": "sweetalert2",
+  "name": "swal2-inclass",
   "version": "6.9.1",
   "repository": "limonte/sweetalert2",
   "homepage": "https://limonte.github.io/sweetalert2/",
   "description": "A beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes, supported fork of sweetalert",
   "main": "dist/sweetalert2.js",
   "jsnext:main": "src/sweetalert2.js",
-  "types": "sweetalert2.d.ts",
+  "types": "swal.d.ts",
   "devDependencies": {
     "babel-core": "latest",
     "babel-plugin-external-helpers": "latest",
@@ -42,7 +42,7 @@
   "files": [
     "dist",
     "src",
-    "sweetalert2.d.ts"
+    "swal.d.ts"
   ],
   "author": "Limon Monte <limon.monte@gmail.com> (https://limonte.github.io)",
   "contributors": [
